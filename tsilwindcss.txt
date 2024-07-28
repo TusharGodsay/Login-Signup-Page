@@ -1,0 +1,12 @@
+---------------Tailwibnd css Setup-----------------
+
+Step:1-Cmd mein chlaye npx tailwindcss init (ek tailwind config file aa jaygei)
+Step:2-Make two folder one main folder for output and one for input
+Step:3-input wale folder me input.css name se file bnay(jisme hum ye modules likhenge)
+Step:4-input\.css mein likhna-->
+       @tailwind base;
+       @tailwind components;
+       @tailwind utilities;
+Step:5-tailwind config file mein content ke ander us file ka source de jisme hum input likhenge like-->./folder_name/index.html
+Step:6- Ab cmd me likhe npx tailwindcss -i ./path -o ./path --watch 
+step:7- Ab diye hue folder me file aa jaayegi use link kr do index.html se
